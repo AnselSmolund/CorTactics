@@ -23,7 +23,7 @@ export const Contact = props => {
         <Form
           id="contact"
           style={{ marginTop: 0 }}
-          action="https://formspree.io/anssmolund@gmail.com"
+          action="https://formspree.io/mbjzpekb"
           method="post"
         >
           <fieldset>

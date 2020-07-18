@@ -48,24 +48,21 @@ export const Footer = props => {
             <h5 class="text-uppercase">Services</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="services.html#ct_acq"> CT Acquisition </a>
+                <a href="/services#ct_acq"> CT Acquisition </a>
               </li>
               <li>
-                <a href="services.html#3D_sizing"> 3 Dimensional CT Sizing </a>
+                <a href="/services#3D_sizing"> 3 Dimensional CT Sizing </a>
               </li>
               <li>
-                <a href="services.html#allergy">
-                  Nursing and Patient Protocols{" "}
-                </a>
+                <a href="/services#allergy">Nursing and Patient Protocols </a>
               </li>
               <li>
-                <a href="services.html#education">
+                <a href="/services#education">
                   Proven Staff Education and Positioning{" "}
                 </a>
               </li>
               <li>
-                <a href="services.html#p_ct_acq">
-                  {" "}
+                <a href="/services#p_ct_acq">
                   Pediatric Congenital CT Acquisition
                 </a>
               </li>

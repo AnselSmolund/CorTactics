@@ -50,7 +50,13 @@ export const NavComponent = props => {
                 style={{ color: "white" }}
               ></FaTwitter>
             </Nav.Link>
-            <Nav.Link href="tel:612-991-7118">612-991-7118</Nav.Link>
+            <Nav.Link href="tel:612-991-7118">
+              612-991-7118
+              <p style={{ fontSize: 12, color: "#ff3838" }}>
+                {" "}
+                Call now for a free consulation!{" "}
+              </p>
+            </Nav.Link>
           </div>
         </Navbar.Collapse>
       </Navbar>

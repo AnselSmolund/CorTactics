@@ -22,13 +22,15 @@
 #basic-navbar-nav a:hover {
   color: #ff3838;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 990px) {
   /* .navbar-nav {
     float: left !important;
   } */
+  .basic-navbar-nav {
+    text-align: center;
+  }
   .social-icons {
-    float: right;
-    margin-top: -150px;
+    display: contents;
   }
 }
 

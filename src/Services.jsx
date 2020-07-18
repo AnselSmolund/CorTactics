@@ -39,19 +39,19 @@ export const Services = props => {
           </Col>
         </Row>
         <Row style={{ textAlign: "center" }}>
-          <Col>
+          <Col md={3}>
             <h3>Boost</h3>
             <Image src={img1} style={{ width: "50%" }} fluid></Image>
           </Col>
-          <Col>
+          <Col md={3}>
             <h3>Educate</h3>
             <Image src={img2} style={{ width: "50%" }} fluid></Image>
           </Col>
-          <Col>
+          <Col md={3}>
             <h3>Tailored</h3>
             <Image src={img3} style={{ width: "50%" }} fluid></Image>
           </Col>
-          <Col>
+          <Col md={3}>
             <h3>Innovative</h3>
             <Image src={img4} style={{ width: "50%" }} fluid></Image>
           </Col>
