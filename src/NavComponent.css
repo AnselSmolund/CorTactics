@@ -14,6 +14,14 @@
   float: right;
   font-size: 25px;
 }
+
+#basic-navbar-nav a {
+  color: white;
+}
+
+#basic-navbar-nav a:hover {
+  color: #ff3838;
+}
 @media only screen and (max-width: 800px) {
   /* .navbar-nav {
     float: left !important;

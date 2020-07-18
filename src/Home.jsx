@@ -107,7 +107,6 @@ export const Home = props => {
           </Col>
         </Row>
       </Container>
-      <Footer></Footer>
     </>
   );
 };
