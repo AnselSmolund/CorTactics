@@ -1,10 +1,11 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import NavComponent from "./NavComponent";
 
 function App() {
   return (
     <div className="App">
-        <h1> Cortactics </h1>
+      <NavComponent></NavComponent>
     </div>
   );
 }
