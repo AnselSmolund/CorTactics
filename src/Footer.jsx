@@ -18,7 +18,7 @@ export const Footer = props => {
     <footer>
       <Container fluid style={{ paddingTop: 20 }}>
         <Row style={{ textAlign: "left" }}>
-          <Col>
+          <Col md={3}>
             <h3 id="footer-title">CorTactics</h3>
             <p>
               An experienced consulting team that delivers training and
@@ -27,7 +27,7 @@ export const Footer = props => {
             </p>
             <Image src={mainLogo} style={{ width: 300 }}></Image>
           </Col>
-          <Col>
+          <Col md={3}>
             <h5 className="text-uppercase">Quick Links</h5>
             <ul className="list-unstyled">
               <li>
@@ -44,7 +44,7 @@ export const Footer = props => {
               </li>
             </ul>
           </Col>
-          <Col>
+          <Col md={3}>
             <h5 class="text-uppercase">Services</h5>
             <ul class="list-unstyled">
               <li>
@@ -71,7 +71,7 @@ export const Footer = props => {
               </li>
             </ul>
           </Col>
-          <Col>
+          <Col md={3}>
             <h5 className="text-uppercase">Contact</h5>
             <ul class="list-unstyled">
               <li>

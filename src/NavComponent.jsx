@@ -8,6 +8,7 @@ import Button from "react-bootstrap/Button";
 import MainLogo from "./main-logo-grey.jpg";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./About";
+import Contact from "./Contact";
 import Services from "./Services";
 import Testimonials from "./Testimonials";
 import Home from "./Home";
@@ -75,7 +76,4 @@ export const NavComponent = props => {
   );
 };
 
-function Contact() {
-  return <h2>Contact</h2>;
-}
 export default NavComponent;
