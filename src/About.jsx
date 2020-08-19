@@ -9,6 +9,7 @@ import img2 from "./images/dave-headshot4.jpg";
 import img3 from "./images/scans/lima.png";
 import img4 from "./images/scans/stent.png";
 import img5 from "./images/scans/TAVR 3.png";
+import DaveHeadshot from "./images/dave_headshot.JPG";
 
 export const About = props => {
   return (
@@ -68,7 +69,7 @@ export const About = props => {
           </p>
         </Col>
         <Col lg={3} style={{ marginTop: 50 }}>
-          <Image src={img2} fluid></Image>
+          <Image src={DaveHeadshot} fluid></Image>
           <p style={{ textAlign: "center", fontSize: 12 }}>
             <ul
               className="list-unstyled"
